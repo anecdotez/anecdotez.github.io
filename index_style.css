@@ -31,7 +31,7 @@
   padding: 0px 10px;
 }*/
 
-.main {
+.content {
   display: flex;
   flex-direction: row;
 }
