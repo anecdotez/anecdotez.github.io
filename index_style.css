@@ -43,7 +43,7 @@
 }
 
 /* The navigation menu links */
-.sidenav_r a {
+.sidenav_r p {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -52,13 +52,14 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav_r a:hover {
+.sidenav_r p:hover {
   color: #bef283;
 }
 
 /* Style page content*/
 .content {
   margin-left: 160px; /* Same as the width of the sidebar */
+  margin-right: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
