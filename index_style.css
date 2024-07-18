@@ -65,8 +65,6 @@
   top: 25%; /* Stay at the top */
   background-color: #111; /* Black */
   overflow-y: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  padding-bottom: 20px;
   border-radius: 25px;
 }
 
