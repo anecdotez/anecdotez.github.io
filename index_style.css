@@ -70,11 +70,11 @@ body{
   background-attachment: fixed;
 }
 
+/* Style page content*/
 .top_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
+  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-right: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
