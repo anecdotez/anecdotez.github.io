@@ -4,7 +4,6 @@
   /*margin-right: 160px; /* Same as the width of the sidebar */
   width: 65%;
   margin: auto;
-  padding: 0px 10px;
   background-color: #111; /* Black */
   border-radius: 25px;
   display: block;
@@ -13,9 +12,7 @@
 /* The navigation menu links */
 .nav_top a {
   float: center;
-  padding: 6px;
-  text-decoration: none;
-  text-align: center;
+  padding: 8px;
   font-size: 25px;
   color: #558767;
   display: block;
