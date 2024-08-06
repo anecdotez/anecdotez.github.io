@@ -24,62 +24,7 @@
   color: #bef283;
 }
 
-.sidenav_l {
-  /*height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 25%; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 25px;
-}
 
-/* The navigation menu links */
-.sidenav_l a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #558767;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav_l a:hover {
-  color: #bef283;
-}
-
-/* The sidebar menu */
-.sidenav_r {
-  /*height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 25%; /* Stay at the top */
-  right: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 25px;
-}
-
-/* The navigation menu links */
-.sidenav_r p {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #558767;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav_r p:hover {
-  color: #bef283;
-}
 
 /* Style page content*/
 .content {
