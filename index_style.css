@@ -15,9 +15,8 @@
 
 .ticker-tape-container {
   overflow-x: hidden;
-  max-width: 700px;
   width: 100%;
-  display: inline-block;
+  display: flex;
 }
 
 .ticker-tape {
