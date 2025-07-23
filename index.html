@@ -2,6 +2,13 @@
 <html>
     
 <head>
+    <script>
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    </script>
     <div class="top_img">
         <img src="anecdotez2.png" alt="anecdotez" style = "max-width:100%;">
     </div>
@@ -21,7 +28,7 @@
 <div class="basic-styling ticker-tape-container">
     <div class="ticker-tape">
       <span>anecdotez</span>
-      <span>subject</span>
+      <span>id = "date"</span>
       <span>verb</span>
       <span>predicate</span>
       <span>preposition</span>
@@ -34,7 +41,7 @@
     </div>
     <div class="ticker-tape" aria-hidden="true">
       <span>anecdotez</span>
-      <span>subject</span>
+      <span>id = "date"</span>
       <span>verb</span>
       <span>predicate</span>
       <span>preposition</span>
