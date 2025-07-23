@@ -3,12 +3,22 @@
     
 <head>
     <script>
-        n =  new Date();
-        y = n.getFullYear();
-        m = n.getMonth() + 1;
-        d = n.getDate();
-        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+        // create a function to update the date and time
+        function updateDateTime() {
+          // create a new `Date` object
+          const now = new Date();
+  
+          // get the current date and time as a string
+          const currentDateTime = now.toLocaleString();
+  
+          // update the `textContent` property of the `span` element with the `id` of `datetime`
+          document.querySelector('#datetime').textContent = currentDateTime;
+        }
+  
+        // call the `updateDateTime` function every second
+        setInterval(updateDateTime, 1000);
     </script>
+
     <div class="top_img">
         <img src="anecdotez2.png" alt="anecdotez" style = "max-width:100%;">
     </div>
@@ -23,13 +33,13 @@
     <title>Welcome to the Sardine Nightclub!</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
     <link rel="stylesheet" href="index_style.css">
-    <p id="date"></p>
+    
 </head>
 
 <div class="basic-styling ticker-tape-container">
     <div class="ticker-tape">
       <span>anecdotez</span>
-      <span id="date"></span>
+      <span id="datetime"></span>
       <span>verb</span>
       <span>predicate</span>
       <span>preposition</span>
@@ -42,7 +52,7 @@
     </div>
     <div class="ticker-tape" aria-hidden="true">
       <span>anecdotez</span>
-      <span id="date"></span>
+      <span id="datetime"></span>
       <span>verb</span>
       <span>predicate</span>
       <span>preposition</span>
