@@ -50,7 +50,7 @@
 .basic-styling {
   border-radius: 10px;
   background-color: #88ba53;
-  padding: 2rem;
+  /*padding: 2rem;*/
   color: #010101;
   font-size: 1.5rem;
   font-family: monospace;
@@ -59,8 +59,9 @@
 .basic-styling span {
   padding: 0.25rem 1rem;
   border-radius: 10px;
-  border: 2px dashed #82e495;
-  background-color: #82e495;
+  border: 2px dashed #000000;
+  background-color: #000000;
+  color : #82e495;
 }
 
 
