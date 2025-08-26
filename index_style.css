@@ -79,14 +79,17 @@
   color: #bef283;
 }
 
-
-
 /* Style page content*/
 .content {
   margin-left: 160px; /* Same as the width of the sidebar */
   margin-right: 160px; /* Same as the width of the sidebar */
   font-family: monospace;
   padding: 0px 10px;
+}
+
+.ascii_art {
+  text-align:center;
+  font-size: 1vw;
 }
 
 body{
