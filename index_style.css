@@ -75,6 +75,10 @@
   display: inline-block;
 }
 
+.nav_top {
+  text-align: center;
+}
+
 .nav_top a:hover {
   color: #bef283;
 }
@@ -86,7 +90,7 @@
   font-family: monospace;
   padding: 25px 25px;
   background-color: #000000;
-  color: chartreuse;
+  color: #82e495;
   border-radius: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -119,22 +123,22 @@ body{
 }
 
 a:link {
-  color: rgb(255, 238, 0);
+  color: chartreuse;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(99, 177, 16);
+  color: rgb(255, 238, 0);
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(236, 137, 167);
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: rgb(122, 122, 243);
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
