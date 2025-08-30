@@ -116,6 +116,25 @@ body{
   display: block;
 }
 
+a:link {
+  color: rgb(255, 238, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(99, 177, 16);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav_l {padding-top: 15px;}
