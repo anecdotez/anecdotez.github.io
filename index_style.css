@@ -85,6 +85,8 @@
   margin-right: 160px; /* Same as the width of the sidebar */
   font-family: monospace;
   padding: 0px 10px;
+  background-color: #000000;
+  color: chartreuse;
 }
 
 .ascii_art {
