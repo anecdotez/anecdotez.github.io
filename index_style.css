@@ -178,15 +178,14 @@ a:active {
   }
 }
 .rotating {
-  -webkit-animation: rotating 6s linear infinite;
-  -moz-animation: rotating 6s linear infinite;
-  -ms-animation: rotating 6s linear infinite;
-  -o-animation: rotating 6s linear infinite;
-  animation: rotating 6s linear infinite;
+  -webkit-animation: rotating 10s linear infinite;
+  -moz-animation: rotating 10s linear infinite;
+  -ms-animation: rotating 10s linear infinite;
+  -o-animation: rotating 10s linear infinite;
+  animation: rotating 10s linear infinite;
   max-width: 60%;
   height: auto;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
