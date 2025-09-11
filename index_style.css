@@ -185,8 +185,8 @@ a:active {
   animation: rotating 10s linear infinite;
   max-width: 60%;
   height: auto;
+  display: block;
   margin: auto;
-  text-align: center;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
