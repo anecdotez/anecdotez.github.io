@@ -132,12 +132,12 @@ body{
 }
 
 a:link {
-  color: chartreuse;
+  color: #F8F89A;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(255, 238, 0);
+  color: rgb(255, 213, 0);
 }
 
 /* mouse over link */
