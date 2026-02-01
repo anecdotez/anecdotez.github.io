@@ -80,7 +80,7 @@
 }
 
 .nav_top a:hover {
-  color: #bef283;
+  color:rgb(244, 162, 186); /* #bef28 */
 }
 
 /* Style page content*/
@@ -137,12 +137,12 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(255, 213, 0);
+  color: #F8F89A;
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(236, 137, 167);
+  color: rgb(244, 162, 186);
 }
 
 /* selected link */
